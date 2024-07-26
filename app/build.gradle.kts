@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.vanka.swipeyc21"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.vanka.swipeyc21"
@@ -36,6 +36,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    buildToolsVersion = "34.0.0"
 }
 
 dependencies {

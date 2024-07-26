@@ -14,17 +14,19 @@
         tools:targetApi="31">
         <activity
             android:name=".ui.StartUpScreen"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_start_up_screen"
-            android:theme="@style/Theme.SwipeYC21" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:theme="@style/Theme.SwipeYC21" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
         </activity>
     </application>
 
