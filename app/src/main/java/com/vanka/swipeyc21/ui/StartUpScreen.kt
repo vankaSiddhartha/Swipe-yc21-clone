@@ -6,13 +6,14 @@ import android.os.Bundle
 import android.os.Handler
 import com.vanka.swipeyc21.MainActivity
 import com.vanka.swipeyc21.R
+import com.vanka.swipeyc21.ui.auth.OnBoardingActivity
 
 class StartUpScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start_up_screen)
         Handler(mainLooper).postDelayed({
-                                        startActivity(Intent(this,MainActivity::class.java));
+                                        startActivity(Intent(this,OnBoardingActivity::class.java));
         },1000)
     }
 }
