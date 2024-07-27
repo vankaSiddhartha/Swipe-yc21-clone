@@ -5,5 +5,8 @@
     <color name="ligth_black">#111214</color>
     <color name="light_white">#969696</color>
     <color name="green">#00773E</color>
+    <color name="light_grey">#E2E4E5</color>
     <color name="blue">#276EE0</color>
+    <color name="light_grey1">#212324</color>
+    <color name="grey">#616161</color>
 </resources>
