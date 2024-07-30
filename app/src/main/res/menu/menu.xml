@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:icon="@drawable/homepage"
+    android:iconTint="@color/white"
+    android:title="Home"/>
+    <item
+        android:id="@+id/bills"
+        android:icon="@drawable/electricitybill"
+        android:title="Bills"
+        android:iconTint="@color/white"/>
+    <item
+        android:title="Products"
+        android:icon="@drawable/box"
+        android:id="@+id/box"
+        android:iconTint="@color/white"/>
+    <item
+        android:title="Parties"
+        android:icon="@drawable/people"
+        android:id="@+id/people"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:icon="@drawable/application"
+        android:iconTint="@color/white"/>
+</menu>
